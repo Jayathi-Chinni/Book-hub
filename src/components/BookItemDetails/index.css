@@ -1,7 +1,3 @@
-/* ================================
-   MAIN PAGE
-================================ */
-
 .book-details-page {
   min-height: 100vh;
   background-color: #f5f7fa;
@@ -9,47 +5,27 @@
   box-sizing: border-box;
 }
 
-
-/* ================================
-   MAIN CONTENT
-================================ */
-
 .book-details-content {
   width: 100%;
   max-width: 1100px;
   margin: 0 auto;
-
   display: flex;
   flex-direction: column;
-
-  /* VERY IMPORTANT */
   align-items: flex-start;
-
   box-sizing: border-box;
 }
 
 
-/* ================================
-   HOME LINK
-================================ */
-
 .book-details-home-link {
   display: block;
-
-  /* Make sure Home starts from the left */
   align-self: flex-start;
-
   margin: 0 0 16px 0;
   padding: 0;
-
   color: #0056b3;
   font-size: 16px;
   font-weight: 500;
-
   text-decoration: underline;
-
   text-align: left;
-
   cursor: pointer;
 }
 
@@ -58,43 +34,24 @@
 }
 
 
-/* ================================
-   BOOK DETAILS CARD
-================================ */
-
 .book-details-card {
   width: 100%;
   max-width: 1100px;
-
   margin: 0;
-
   background-color: #ffffff;
-
   border-radius: 12px;
-
   padding: 40px;
-
   box-sizing: border-box;
-
   display: flex;
   align-items: flex-start;
-
   gap: 50px;
-
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
-
-
-/* ================================
-   BOOK IMAGE
-================================ */
 
 .book-details-image-container {
   width: 300px;
   min-width: 300px;
-
   display: flex;
-
   justify-content: flex-start;
   align-items: flex-start;
 }
@@ -102,190 +59,109 @@
 .book-details-image {
   width: 280px;
   height: 400px;
-
   object-fit: cover;
-
   border-radius: 6px;
 }
 
 
-/* ================================
-   BOOK INFORMATION
-================================ */
-
 .book-details-info {
   flex: 1;
-
-  /* VERY IMPORTANT */
   text-align: left;
-
-  /* Prevent any parent/global CSS
-     from centering the content */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
 
-/* ================================
-   BOOK TITLE
-================================ */
 
 .book-details-title {
   margin: 0 0 10px 0;
-
   color: #102a43;
-
   font-size: 32px;
   line-height: 1.3;
   font-weight: 700;
-
   text-align: left;
 }
-
-
-/* ================================
-   AUTHOR
-================================ */
 
 .book-details-author {
   margin: 0 0 25px 0;
-
   color: #627d98;
-
   font-size: 18px;
-
   text-align: left;
 }
 
 
-/* ================================
-   RATING
-================================ */
 
 .book-details-rating {
   margin: 0 0 12px 0;
-
   color: #627d98;
-
   font-size: 16px;
-
   text-align: left;
 }
 
 .star {
   color: #f7b801;
-
   font-size: 18px;
-
   margin-left: 8px;
   margin-right: 5px;
 }
 
 
-/* ================================
-   STATUS
-================================ */
-
 .book-details-status {
   margin: 0 0 18px 0;
-
   color: #627d98;
-
   font-size: 16px;
-
   text-align: left;
 }
 
 .status-value {
   color: #0784d1;
-
   margin-left: 5px;
 }
 
 
-/* ================================
-   ABOUT SECTIONS
-================================ */
 
 .about-author-section,
 .about-book-section {
   width: 100%;
-
   text-align: left;
 }
 
-
-/* ================================
-   SECTION HEADINGS
-================================ */
 
 .book-details-section-heading {
   margin: 0 0 12px 0;
-
   color: #102a43;
-
   font-size: 20px;
-
   font-weight: 600;
-
   text-align: left;
 }
 
 
-/* ================================
-   ABOUT AUTHOR DESCRIPTION
-================================ */
 
 .about-author-description {
   margin: 0 0 25px 0;
-
   color: #627d98;
-
   font-size: 16px;
-
   line-height: 1.7;
-
   text-align: left;
 }
-
-
-/* ================================
-   ABOUT BOOK DESCRIPTION
-================================ */
 
 .book-details-description {
   margin: 0;
-
   color: #627d98;
-
   font-size: 16px;
-
   line-height: 1.7;
-
   text-align: left;
 }
 
-
-/* ================================
-   META INFORMATION
-================================ */
-
 .book-details-meta-container {
   width: 100%;
-
   display: flex;
-
   justify-content: flex-start;
-
   gap: 50px;
-
   margin-top: 35px;
-
   padding-top: 25px;
-
   border-top: 1px solid #d9e2ec;
-
   text-align: left;
 }
 
@@ -295,36 +171,24 @@
 
 .meta-label {
   margin: 0 0 6px 0;
-
   color: #829ab1;
-
   font-size: 14px;
-
   text-align: left;
 }
 
 .meta-value {
   margin: 0;
-
   color: #334e68;
-
   font-size: 15px;
-
   font-weight: 600;
-
   text-align: left;
 }
 
 
-/* ================================
-   LOADING
-================================ */
 
 .book-details-loading-container {
   min-height: 70vh;
-
   display: flex;
-
   justify-content: center;
   align-items: center;
 }
@@ -332,12 +196,9 @@
 .loader {
   width: 45px;
   height: 45px;
-
   border: 5px solid #d9e2ec;
   border-top: 5px solid #1867c0;
-
   border-radius: 50%;
-
   animation: spin 1s linear infinite;
 }
 
@@ -352,19 +213,13 @@
 }
 
 
-/* ================================
-   FAILURE PAGE
-================================ */
 
 .book-details-failure-container {
   min-height: 70vh;
-
   display: flex;
   flex-direction: column;
-
   justify-content: center;
   align-items: center;
-
   text-align: center;
 }
 
@@ -375,26 +230,18 @@
 
 .book-details-failure-description {
   margin: 20px 0;
-
   color: #334e68;
-
   font-size: 16px;
 }
 
 .book-details-try-again-button {
   border: none;
-
   background-color: #1867c0;
-
   color: #ffffff;
-
   padding: 10px 22px;
-
   border-radius: 6px;
-
   font-size: 14px;
   font-weight: 600;
-
   cursor: pointer;
 }
 
@@ -403,45 +250,25 @@
 }
 
 
-/* ================================
-   MOBILE
-================================ */
-
 @media screen and (max-width: 767px) {
 
   .book-details-page {
     padding: 25px 20px;
   }
-
-
-  /* HOME */
-
   .book-details-home-link {
     margin-bottom: 15px;
   }
-
-
-  /* CARD */
-
   .book-details-card {
     width: 100%;
-
     padding: 25px 20px;
-
     flex-direction: column;
-
     align-items: center;
-
     gap: 30px;
   }
-
-
-  /* IMAGE */
 
   .book-details-image-container {
     width: 100%;
     min-width: 0;
-
     justify-content: center;
   }
 
@@ -450,28 +277,21 @@
     height: 260px;
   }
 
-
-  /* INFORMATION */
-
   .book-details-info {
     width: 100%;
-
     align-items: flex-start;
-
     text-align: left;
   }
 
 
   .book-details-title {
     font-size: 24px;
-
     text-align: left;
   }
 
 
   .book-details-author {
     font-size: 16px;
-
     text-align: left;
   }
 
@@ -486,19 +306,15 @@
   }
 
 
-  /* ABOUT SECTIONS */
-
   .about-author-section,
   .about-book-section {
     width: 100%;
-
     text-align: left;
   }
 
 
   .book-details-section-heading {
     font-size: 18px;
-
     text-align: left;
   }
 
@@ -506,9 +322,6 @@
   .about-author-description,
   .book-details-description {
     font-size: 14px;
-
     text-align: left;
   }
-
-
 }
