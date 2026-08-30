@@ -1,0 +1,64 @@
+.something-went-wrong-container {
+  min-height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  padding: 30px 20px;
+
+  box-sizing: border-box;
+}
+
+.something-went-wrong-image {
+  width: 220px;
+  max-width: 80%;
+
+  margin-bottom: 20px;
+}
+
+.something-went-wrong-description {
+  margin: 0 0 20px;
+
+  color: #64748b;
+
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.try-again-button {
+  border: none;
+  border-radius: 6px;
+
+  background-color: #171f46;
+  color: #ffffff;
+
+  padding: 10px 20px;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.try-again-button:hover {
+  background-color: #0f1635;
+}
+
+
+@media screen and (max-width: 767px) {
+  .something-went-wrong-container {
+    min-height: 280px;
+  }
+
+  .something-went-wrong-image {
+    width: 180px;
+  }
+
+  .something-went-wrong-description {
+    font-size: 14px;
+  }
+}

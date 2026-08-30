@@ -1,0 +1,59 @@
+.no-books-container {
+  min-height: 350px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  padding: 40px 20px;
+
+  box-sizing: border-box;
+}
+
+.no-books-image {
+  width: 220px;
+  max-width: 80%;
+
+  margin-bottom: 20px;
+}
+
+.no-books-heading {
+  margin: 0 0 10px;
+
+  color: #171f46;
+
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.no-books-description {
+  margin: 0;
+
+  color: #64748b;
+
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 767px) {
+  .no-books-container {
+    min-height: 300px;
+
+    padding: 30px 15px;
+  }
+
+  .no-books-image {
+    width: 180px;
+  }
+
+  .no-books-heading {
+    font-size: 20px;
+  }
+
+  .no-books-description {
+    font-size: 14px;
+  }
+}
